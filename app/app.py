@@ -8,7 +8,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Load the model
 model = initialize_model('add')
 save_path = './models/addmodel.pt'
-model.load_state_dict(torch.load(save_path, map_location=device))c
+model.load_state_dict(torch.load(save_path, map_location=device))
 model = model.to(device)  # Move the model to the selected device
 
 # Streamlit UI

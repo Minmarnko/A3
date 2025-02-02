@@ -7,8 +7,8 @@ import datasets
 import pickle
 
 
-SRC_LANGUAGE = 'en'
-TRG_LANGUAGE = 'my'
+SRC_LANGUAGE = 'eng'
+TRG_LANGUAGE = 'myn'
 
 vocab_transform = pickle.load(open(r'data\vocab.pkl', 'rb'))
 
