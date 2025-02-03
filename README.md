@@ -155,3 +155,6 @@ The web application **loads the model** and processes the **user input** as the 
 3. **Output Generation**:  
    - The predicted words in the **target sequence** are **joined together**.  
    - The final translated text is **displayed to the user**.
+
+![Website Preview](website.png)
+
